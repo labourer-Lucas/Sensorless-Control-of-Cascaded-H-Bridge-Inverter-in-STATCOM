@@ -25,10 +25,9 @@ The estimated capacitor voltage is given by:
 $$
  V_{c - j} = \left| v' - v'' \right|
 $$
-where$v'$ and $v''$ are the measurd AC output voltage befor and after the switching transition. When the switching state of a submodule is detercted, the capacitor voltage of the submodule can be refreshed by the formula above, and when the switching state do not change, the votage keeps same as the state before.  The flow chart is shown below:
+where $v'$ and $v''$ are the measurd AC output voltage befor and after the switching transition. When the switching state of a submodule is detercted, the capacitor voltage of the submodule can be refreshed by the formula above, and when the switching state do not change, the votage keeps same as the state before.  The flow chart is shown below:
 
-![Flow chart sensorless contro for report.drawio](assets/Flow chart sensorless contro for report.drawio.png)
-
+![alt text](<assets/Flow chart sensorless contro for report.png>)
 ## C-script code
 
 ```c++
